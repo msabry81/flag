@@ -1,11 +1,11 @@
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Privacy Policy - Flags & Capitals</title>
+    <title>سياسة الخصوصية - أعلام و عواصم | Privacy Policy</title>
 
     <style>
         * {
@@ -15,23 +15,33 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Arial, Tahoma, sans-serif;
             background: #f5f7fa;
             color: #222;
-            line-height: 1.7;
+            line-height: 1.8;
         }
 
         .container {
-            max-width: 850px;
+            max-width: 900px;
             margin: 40px auto;
             padding: 0 20px;
         }
 
         .card {
             background: #ffffff;
-            border-radius: 14px;
+            border-radius: 16px;
             padding: 40px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .language {
+            display: inline-block;
+            background: #1a73e8;
+            color: white;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 13px;
+            margin-bottom: 15px;
         }
 
         h1 {
@@ -51,6 +61,11 @@
         }
 
         ul {
+            padding-right: 25px;
+        }
+
+        .ltr-list {
+            padding-right: 0;
             padding-left: 25px;
         }
 
@@ -62,10 +77,27 @@
 
         .highlight {
             background: #f1f6ff;
-            border-left: 4px solid #1a73e8;
+            border-right: 4px solid #1a73e8;
             padding: 15px 18px;
             margin: 20px 0;
             border-radius: 6px;
+        }
+
+        .english {
+            direction: ltr;
+            text-align: left;
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid #ddd;
+        }
+
+        .english .highlight {
+            border-right: none;
+            border-left: 4px solid #1a73e8;
+        }
+
+        .english ul {
+            padding-left: 25px;
         }
 
         footer {
@@ -101,108 +133,239 @@
 
     <div class="card">
 
-        <h1>Privacy Policy</h1>
+        <!-- ==================== العربية ==================== -->
 
-        <p class="date">
-            Last updated: September 25, 2026
-        </p>
+        <section>
 
-        <p>
-            Welcome to <strong>Flags & Capitals</strong>.
-            This Privacy Policy explains how information is handled when you use the game.
-        </p>
+            <span class="language">العربية</span>
 
-        <div class="highlight">
-            <strong>In short:</strong>
-            Flags & Capitals does not require you to create an account or provide personal
-            information to play the game.
-        </div>
+            <h1>سياسة الخصوصية</h1>
 
-        <h2>1. Information We Collect</h2>
+            <p class="date">
+                آخر تحديث: 25 سبتمبر 2026
+            </p>
 
-        <p>
-            Flags & Capitals does not directly collect or require users to provide personal
-            information such as:
-        </p>
+            <p>
+                مرحبًا بك في لعبة <strong>أعلام و عواصم</strong>.
+            </p>
 
-        <ul>
-            <li>Name</li>
-            <li>Email address</li>
-            <li>Phone number</li>
-            <li>Home address</li>
-            <li>Precise location</li>
-            <li>Contacts</li>
-            <li>Photos or files</li>
-            <li>Passwords</li>
-        </ul>
+            <p>
+                توضح سياسة الخصوصية هذه كيفية التعامل مع المعلومات عند استخدامك للعبة.
+                نحن نحترم خصوصيتك ونسعى إلى حماية معلوماتك.
+            </p>
 
-        <p>
-            The game can be played without creating an account or submitting personal information.
-        </p>
+            <div class="highlight">
+                <strong>باختصار:</strong>
+                لا تتطلب لعبة أعلام و عواصم إنشاء حساب أو تقديم معلومات شخصية
+                من أجل لعب اللعبة.
+            </div>
 
-        <h2>2. Third-Party Services</h2>
+            <h2>1. المعلومات التي نجمعها</h2>
 
-        <p>
-            The game may use third-party services to provide, maintain, or improve certain
-            features of the game.
-        </p>
+            <p>
+                لا تقوم لعبة أعلام و عواصم بشكل مباشر بجمع أو طلب معلومات شخصية
+                من المستخدمين مثل:
+            </p>
 
-        <p>
-            Third-party service providers may collect information according to their own
-            privacy policies and terms of service.
-        </p>
+            <ul>
+                <li>الاسم</li>
+                <li>عنوان البريد الإلكتروني</li>
+                <li>رقم الهاتف</li>
+                <li>العنوان الشخصي</li>
+                <li>الموقع الجغرافي الدقيق</li>
+                <li>جهات الاتصال</li>
+                <li>الصور أو الملفات الشخصية</li>
+                <li>كلمات المرور</li>
+            </ul>
 
-        <h2>3. Advertising</h2>
+            <p>
+                يمكنك لعب اللعبة دون إنشاء حساب أو تقديم معلومات شخصية.
+            </p>
 
-        <p>
-            If advertisements are displayed in the game, advertising providers may collect
-            certain information in accordance with their own privacy policies.
-        </p>
+            <h2>2. خدمات الجهات الخارجية</h2>
 
-        <p>
-            If advertising is not enabled in the game, the game does not perform
-            advertising-related data collection.
-        </p>
+            <p>
+                قد تستخدم اللعبة خدمات مقدمة من جهات خارجية للمساعدة في تشغيل
+                اللعبة أو توفير بعض وظائفها أو تحسينها.
+            </p>
 
-        <h2>4. Children's Privacy</h2>
+            <p>
+                قد تقوم هذه الجهات الخارجية بجمع بعض المعلومات وفقًا لسياسات
+                الخصوصية وشروط الاستخدام الخاصة بها.
+            </p>
 
-        <p>
-            Flags & Capitals does not knowingly collect personal information from children.
-        </p>
+            <h2>3. الإعلانات</h2>
 
-        <p>
-            The game does not require users to create an account or submit personal information
-            in order to play.
-        </p>
+            <p>
+                إذا كانت الإعلانات مفعّلة داخل اللعبة، فقد تستخدم خدمات الإعلانات
+                التابعة لجهات خارجية بعض المعلومات لتقديم الإعلانات وقياس أدائها،
+                وذلك وفقًا لسياسات الخصوصية الخاصة بهذه الجهات.
+            </p>
 
-        <h2>5. Data Security</h2>
+            <p>
+                إذا لم تكن الإعلانات مفعّلة في اللعبة، فلن تقوم اللعبة بجمع
+                معلومات لأغراض الإعلانات.
+            </p>
 
-        <p>
-            We take reasonable measures to protect information associated with the game.
-            However, no method of electronic transmission or electronic storage can be
-            guaranteed to be completely secure.
-        </p>
+            <h2>4. خصوصية الأطفال</h2>
 
-        <h2>6. Changes to This Privacy Policy</h2>
+            <p>
+                لا تقوم لعبة أعلام و عواصم بجمع معلومات شخصية من الأطفال
+                عن قصد.
+            </p>
 
-        <p>
-            This Privacy Policy may be updated from time to time.
-            Any changes will be published on this page with an updated
-            "Last updated" date.
-        </p>
+            <p>
+                لا تتطلب اللعبة إنشاء حساب أو تقديم معلومات شخصية من أجل اللعب.
+            </p>
 
-        <h2>7. Contact</h2>
+            <h2>5. حماية البيانات</h2>
 
-        <p>
-            If you have questions about this Privacy Policy or Flags & Capitals,
-            you can contact us through the contact information provided on the
-            Google Play Store listing for the game.
-        </p>
+            <p>
+                نتخذ إجراءات معقولة للمساعدة في حماية المعلومات المرتبطة باللعبة.
+                ومع ذلك، لا يمكن ضمان أن تكون أي وسيلة إلكترونية لنقل أو تخزين
+                البيانات آمنة بشكل كامل.
+            </p>
+
+            <h2>6. التغييرات على سياسة الخصوصية</h2>
+
+            <p>
+                قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر.
+                سيتم نشر أي تغييرات على هذه الصفحة مع تحديث تاريخ
+                "آخر تحديث".
+            </p>
+
+            <h2>7. التواصل معنا</h2>
+
+            <p>
+                إذا كانت لديك أي أسئلة حول سياسة الخصوصية هذه أو لعبة
+                أعلام و عواصم، يمكنك التواصل معنا من خلال معلومات الاتصال
+                المتوفرة في صفحة اللعبة على Google Play.
+            </p>
+
+        </section>
+
+
+        <!-- ==================== English ==================== -->
+
+        <section class="english">
+
+            <span class="language">English</span>
+
+            <h1>Privacy Policy</h1>
+
+            <p class="date">
+                Last updated: September 25, 2026
+            </p>
+
+            <p>
+                Welcome to <strong>Flags & Capitals</strong>.
+            </p>
+
+            <p>
+                This Privacy Policy explains how information is handled when
+                you use the game. We respect your privacy and are committed
+                to protecting it.
+            </p>
+
+            <div class="highlight">
+                <strong>In short:</strong>
+                Flags & Capitals does not require you to create an account
+                or provide personal information in order to play the game.
+            </div>
+
+            <h2>1. Information We Collect</h2>
+
+            <p>
+                Flags & Capitals does not directly collect or require users
+                to provide personal information such as:
+            </p>
+
+            <ul class="ltr-list">
+                <li>Name</li>
+                <li>Email address</li>
+                <li>Phone number</li>
+                <li>Home address</li>
+                <li>Precise location</li>
+                <li>Contacts</li>
+                <li>Photos or personal files</li>
+                <li>Passwords</li>
+            </ul>
+
+            <p>
+                You can play the game without creating an account or
+                providing personal information.
+            </p>
+
+            <h2>2. Third-Party Services</h2>
+
+            <p>
+                The game may use third-party services to help operate the
+                game, provide certain features, or improve the game.
+            </p>
+
+            <p>
+                These third-party service providers may collect certain
+                information according to their own privacy policies and
+                terms of service.
+            </p>
+
+            <h2>3. Advertising</h2>
+
+            <p>
+                If advertisements are enabled in the game, third-party
+                advertising services may use certain information to provide
+                advertisements and measure their performance, according to
+                their respective privacy policies.
+            </p>
+
+            <p>
+                If advertising is not enabled in the game, the game does not
+                collect information for advertising purposes.
+            </p>
+
+            <h2>4. Children's Privacy</h2>
+
+            <p>
+                Flags & Capitals does not knowingly collect personal
+                information from children.
+            </p>
+
+            <p>
+                The game does not require users to create an account or
+                provide personal information in order to play.
+            </p>
+
+            <h2>5. Data Security</h2>
+
+            <p>
+                We take reasonable measures to help protect information
+                associated with the game. However, no method of electronic
+                transmission or storage can be guaranteed to be completely
+                secure.
+            </p>
+
+            <h2>6. Changes to This Privacy Policy</h2>
+
+            <p>
+                We may update this Privacy Policy from time to time.
+                Any changes will be published on this page with an updated
+                "Last updated" date.
+            </p>
+
+            <h2>7. Contact Us</h2>
+
+            <p>
+                If you have any questions about this Privacy Policy or
+                Flags & Capitals, you can contact us through the contact
+                information provided on the game's Google Play Store listing.
+            </p>
+
+        </section>
 
     </div>
 
     <footer>
-        © 2026 Flags & Capitals. All rights reserved.
+        © 2026 أعلام و عواصم | Flags & Capitals
     </footer>
 
 </div>
